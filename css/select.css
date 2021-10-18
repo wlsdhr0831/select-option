@@ -1,27 +1,42 @@
-.selectBox{
-    padding: 30px;
-    text-align: left;
-    background-color: white;
-    border-radius: 10px;
+.selectBox {
+  padding: 30px;
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
 }
 
-input{
-    float: right;
-    width: 20px;
-    height: 20px;
-    filter: hue-rotate(140deg);
+.selectBox button {
+  display: block;
+  margin: 10px auto auto auto;
+  font-size: 1.25rem;
+  border: 1px solid #fec3a6;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fec3a6;
 }
 
-.totalBox{
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 20px;
-    border-bottom: 2px solid rgb(126, 126, 126);
-    margin-bottom: 10px;
+.selectBox button:hover {
+  background-color: #fec3a6;
+  color: white;
 }
 
-.elementBox{
-    font-size: 1.25rem;
-    color: rgb(73, 73, 73);
-    padding: 20px;
+input {
+  float: right;
+  width: 20px;
+  height: 20px;
+  filter: hue-rotate(140deg);
+}
+
+.totalBox {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 2px solid #fec3a6;
+  margin-bottom: 10px;
+}
+
+.elementBox {
+  font-size: 1.25rem;
+  color: rgb(73, 73, 73);
+  padding: 20px;
 }
