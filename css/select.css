@@ -9,14 +9,14 @@
   display: block;
   margin: 10px auto auto auto;
   font-size: 1.25rem;
-  border: 1px solid var(--color-3);
+  border: 1px solid var(--color-1);
   border-radius: 10px;
   background-color: transparent;
-  color: #fec3a6;
+  color: var(--color-1);
 }
 
 .selectBox button:hover {
-  background-color: var(--color-3);
+  background-color: var(--color-2);
   color: white;
 }
 
