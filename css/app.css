@@ -1,7 +1,17 @@
+:root{
+  --color-1: #FFAC81;
+  --color-2: #FF928B;
+  --color-3: #FEC3A6;
+  --color-4: #EFE9AE;
+  --color-5: #CDEAC0;
+}
+
 body {
   margin: 0px;
   padding: 50px;
-  background-color: #ff928b;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(var(--color-3), var(--color-2));
   font-family: "Roboto";
 }
 
